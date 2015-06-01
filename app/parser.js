@@ -14,7 +14,8 @@ var scrap = function(req, res) {
               var text = $(this).text(),
                   isNotCommentOfComment = ($(".ind img", this).attr("width") == 0),
                   filter = decodeURI(req.params['content']).toLowerCase(),
-                  shouldFilter = (filter && (text.toLowerCase().indexOf(filter) !== -1)) || !filter;
+                  shouldFilter = (filter && (text.toLowerCase().indexOf(filter) !== -1))
+                      || (filter == 'undefined');
 
               if (isNotCommentOfComment && shouldFilter) {
                 return text.replace(/  +/g, ' ');
