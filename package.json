@@ -1,0 +1,36 @@
+{
+  "name": "hw-parser",
+  "version": "0.1.0",
+  "description": "A Hacker News parser to fetch comments from news.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasArruda/hacker-news-parser"
+  },
+  "keywords": [
+    "hacker",
+    "news",
+    "parser",
+    "hn",
+    "fetch",
+    "comments"
+  ],
+  "author": "Lucas Arruda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasArruda/hacker-news-parser/issues"
+  },
+  "homepage": "https://github.com/LucasArruda/hacker-news-parser",
+  "dependencies": {
+    "express": "^4.12.4",
+    "scraperjs": "^0.3.3"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.57.0"
+  }
+}
