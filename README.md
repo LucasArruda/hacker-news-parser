@@ -1,11 +1,5 @@
 # hacker-news-parser
-A Hacker News parser to fetch and parse comments from news
-    
-### Testing
-
-To test, type
-
-    npm test
+A Hacker News parser to fetch and parse comments from newst
 
 ### Running
 
@@ -14,6 +8,12 @@ To run, just use npm
     npm start
     
 and point browser to `http://localhost:3000`
+    
+### Testing
+
+To test, run server and type
+
+    npm test
 
 #### Filtering
 
