@@ -11,7 +11,7 @@ To test, type
 
 To run, just use npm
 
-    npm run
+    npm start
     
 and point browser to `http://localhost:3000`
 
